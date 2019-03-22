@@ -1,0 +1,40 @@
+
+.hundredTech{
+    position: relative;
+}
+
+.images{
+    display: block;
+    width: 100%;
+}
+
+.feature, .technique, .otherTechniques, .joinBtn{
+    position: absolute;
+}
+
+.technique{
+    font-size: 30px;
+    top: 30%;
+    right: calc(50% - 65px);
+    /* color: var(--dusk); */
+}
+
+.otherTechniques{
+    /* color: var(--dusk); */
+    top: 45%;
+    right: calc(50% - 140px);
+    font-size: 20px;
+}
+
+.joinBtn{
+    left: calc(50% - 74px);
+    top:63%;
+    background: var(--yellow);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    color: #213865;
+}

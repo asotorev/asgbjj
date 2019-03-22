@@ -1,0 +1,24 @@
+.logo {
+    height: 30px;
+}
+
+.style1{
+    background: var(--dark);
+}
+
+.banner{
+    /* background: linear-gradient(to bottom, #213865, #1b1b3a); */
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 10px 10px;
+}
+
+.placeRight{    
+    margin-left: auto;
+}
+
+.banner a {
+    padding:5px 10px 5px 10px;
+    color: inherit;
+    text-decoration:none;
+}

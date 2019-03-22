@@ -1,0 +1,22 @@
+.banner{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.style2{
+    background: var(--yellow);
+    color: white;
+}
+
+.placeRight{    
+    margin-left: auto;
+}
+
+p{
+    margin: 0;
+}
+
+h2{
+    font-size: 20px;
+}

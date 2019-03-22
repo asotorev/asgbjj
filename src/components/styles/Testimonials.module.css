@@ -1,0 +1,58 @@
+/* section {
+    margin: 50px 0;
+} */
+
+.sectionTitle{
+    display: block;
+    /* padding: 0px; */
+    margin: 50px 0px 15px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.testimonials{
+    display: grid;
+    grid-template-columns: 2% 20% 20% 20% 2%;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+.testimonial{
+    padding: 20px 30px;
+    margin: 0px 10px ;
+    border-radius: 8px;
+}
+
+.testimonial>p{
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.rotate180{
+    transform: rotate(180deg);
+}
+
+.avatar{
+    padding: 15px 15px 0px 0px;
+    width: 50px;
+    display: inline-block;
+}
+
+.avatarCont{
+    display: flex;
+    align-items: center;
+}
+
+.checkIcon{
+    width: 25px;
+    padding: 10px 0px 10px 0px;
+}
+
+.style1{
+    background: var(--dark);
+}

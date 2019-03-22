@@ -1,0 +1,39 @@
+.backgroundImg{
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.topMargin{
+    margin-top: 0;
+}
+
+.hide{
+    display: none;
+}
+
+.instructor{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.meetCoach{
+    font-weight: 500;
+    color: var(--yellow);
+    padding-bottom: 20px;
+}
+
+.biography{
+    color: white;
+    font-weight: normal;
+    align-self: center;
+    background: var(--dark); 
+    padding:80px 40px;
+}
+
+.coachImg{
+    background-image: url("/assets/coach.jpg");
+    height: 100%;
+    background-size: 60% 100%;
+    background-position: left bottom;
+}

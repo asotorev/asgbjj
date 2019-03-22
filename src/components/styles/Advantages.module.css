@@ -1,0 +1,33 @@
+.advantages{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-column-gap: 4px;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.block{
+    text-align: center;
+    background: var(--dark);
+    border-radius: 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+.checkIcon{
+    width: 25px;
+    padding: 10px 0px 0px 0px;
+}
+
+.blockTitle{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 1.6vw;
+    color: var(--yellow);
+}
+
+.blockContent{
+    color: white;
+    font-weight: normal;
+    font-size: 1.1vw;
+    padding: 10px 50px 10px 50px;
+}
