@@ -33,3 +33,12 @@
     color: inherit;
     text-decoration:none;
 }
+
+@media screen and (max-width: 414px) {
+
+    .navFooter{
+        display: none;
+    }
+
+
+}

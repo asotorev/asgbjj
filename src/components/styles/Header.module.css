@@ -2,6 +2,10 @@
     height: 30px;
 }
 
+.menuIcon {
+    display: none;
+}
+
 .style1{
     background: var(--dark);
 }
@@ -13,12 +17,38 @@
     padding: 10px 0px 10px 10px;
 }
 
-.placeRight{    
-    margin-left: auto;
-}
-
 .banner a {
     padding:5px 10px 5px 10px;
     color: inherit;
     text-decoration:none;
+}
+
+.menu{    
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .logo{
+        height:25px; 
+    }
+
+    .menu{
+        font-size: 14px;
+        margin-right: 0;
+    }
+    
+    .initialMenu{
+        display: none;
+    }
+    
+    .banner a {
+        padding: 10px;
+    }
+
+    .menuIcon {
+        display: inline-block;
+        margin-right: 10px;
+    }
 }
